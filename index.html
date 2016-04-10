@@ -21,6 +21,8 @@
     //Using Code from https://www.thewebflash.com/how-to-add-a-cross-browser-add-to-favorites-bookmark-button-to-your-website/
     //http://www.dynamicsitesolutions.com/javascript/add-bookmark-script/
     ///////////////////////////////////////
+    </script>
+   <!-- <script>
  
   jQuery(document).ready(function($) {
   $('#install-consolidator').click(function(e) {
@@ -53,7 +55,7 @@
     return false;
   });
 });
-    </script>
+    </script>-->
     
      <!--<script src="javascripts/add_bookmark.jquery.js"></script>-->
     
@@ -149,7 +151,8 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<center><a id="install-consolidator" href="#" title="The Consolidator">The Consolidator</a></center><br />
+<script>document.write('<center><a id=\"install-consolidator\" href=\"' + consolidatorLatest + '\">The Consolidator</a></center>');</script>
+<br />
 <script>document.write('<center><small><a href=\"' + consolidatorLatest + '\">Install button not working? Right-click here and click \'Add to Bookmarks/Favourites\'.<br />If this option is not available, right-click here, copy the link address and paste it as the URL for the bookmark you created of this page.</a></small></center>');</script>
 <br />
 <h3>
