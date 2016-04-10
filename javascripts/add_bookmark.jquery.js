@@ -86,7 +86,7 @@ var addBookmarkObj = {
 	getParent:function(parId){
 		if(!document.getElementById || !document.createTextNode) return null;
 		parId=((typeof(parId)=='string')&&!isEmpty(parId))
-			?parId:'addBookmarkContainer';
+			?parId:'install-consolidator';
 		return document.getElementById(parId)||null;
 	},
 	findKeys:function(){
