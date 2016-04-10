@@ -23,7 +23,7 @@ var undefined;
 function isEmpty(s){return ((s=='')||/^\s*$/.test(s));}
 
 var addBookmarkObj = {
-	linkText:'Install the Consolidator',
+	linkText:'⬇️',
 	title:bookmarkletTitle,
 	URL:consolidatorLatest,
 	addTextLink:function(parId){
@@ -103,7 +103,7 @@ var addBookmarkObj = {
 			// IE, Firefox, Netscape, Safari, Google Chrome, Opera 9+, iCab, IE5/Mac
 			str+=' + D';
 		}
-		return 'Press '+str+' to bookmark this page.';
+		return 'Press '+str+' to bookmark this page.  Your browser is not compatible with the installer.  Follow the instructions below.';
 	},
 	checkMobileDevice:function(){
 		var d=[screen.width,screen.height];
